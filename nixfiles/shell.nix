@@ -48,6 +48,8 @@ mkShell {
     busybox
     gcc-arm-embedded
     dfu-util
+    pkgsCross.avr.buildPackages.gcc
+    teensy-loader-cli
   ] ++ components.buildInputs;
 
   shellHook = ''
