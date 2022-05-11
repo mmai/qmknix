@@ -15,11 +15,11 @@ flash:
 newEZ:
 	qmk new-keymap -kb ergodox_ez
 editEZ:
-	nvim /home/henri/qmk_firmware/keyboards/ergodox_ez/keymaps/mmai_plank/keymap.json
+	nvim /home/henri/qmk_firmware/keyboards/ergodox_ez/keymaps/mmai_preonic/keymap.json
 compileEZ:
-	qmk compile -kb ergodox_ez -km mmai_plank
+	qmk compile -kb ergodox_ez -km mmai_preonic
 flashEZ:
-	qmk flash -kb ergodox_ez -km mmai_plank
+	qmk flash -kb ergodox_ez -km mmai_preonic
 newFerris:
 	qmk new-keymap -kb ferris/0_2
 editFerris:
